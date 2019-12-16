@@ -14,6 +14,6 @@ class RetiredForagerBee extends ForagerBee{
   }
 
   gamble (treasure) {
-    return this.treasureChest.push(treasure)
+    return this.treasureChest.push2(treasure)
   }
 };
